@@ -20,6 +20,7 @@ public class XYZbankTest {
     private final static String XYZ_BASE_URL = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login";
     private final static String firstName = "Sirius";
     private final static String lastName = "Black";
+    private final static String zipCode = String.valueOf(new Random().nextInt(5000));
     @BeforeAll
     static void registerDriver() {
         WebDriverManager.chromedriver().setup();
